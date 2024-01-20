@@ -1,0 +1,101 @@
+* {
+  font-family: "Inter", sans-serif;
+}
+header {
+  background: #fff8f3;
+  width: 100%;
+  padding: 0.1rem;
+  background-image: url(../images/icons/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+/* navigation section */
+.nav-container {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+  margin: 1rem auto;
+}
+.nav-container h3 {
+  color: #181818;
+  font-size: 2.6rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+.nav-common {
+  list-style: none;
+  margin-right: 2rem;
+  align-items: center;
+
+  /* background-color: aquamarine; */
+}
+.nav-common a {
+  text-decoration: none;
+  color: #181816;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 0.6rem;
+  border-radius: 0.5rem;
+}
+.btn-common {
+  border-radius: 0.8rem;
+  background: #fd6e0a;
+  border: none;
+  padding: 1rem;
+  color: #fff;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+
+}
+/* banner section */
+.banner {
+  display: flex;
+  align-items: center;
+  width: 90%;
+  margin: 0px auto;
+}
+.banner .banner-text {
+  text-align: center;
+  padding: 0.3rem;
+}
+.banner .banner-text .hi {
+  color: #0f0e0e;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+.banner .banner-text .name {
+  color: #181818;
+  font-size: 4rem;
+  font-style: normal;
+  font-weight: 700;
+}
+.banner .banner-text .banner-paragraph {
+  color: #2d2c2c;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+}
+.banner .banner-contact .btn-contact {
+    background-color: red;
+    margin: 1rem;
+}
+
+.banner .banner-icons{
+    margin-top: 1rem;
+}
+
+.banner .banner-icons img {
+    margin-right: 0.3rem;
+}
