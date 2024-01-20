@@ -8,6 +8,7 @@ header {
   background-image: url(../images/icons/header_bg.png);
   background-repeat: no-repeat;
   background-position: bottom right;
+ 
 }
 /* navigation section */
 .nav-container {
@@ -60,6 +61,7 @@ header {
 /* banner section */
 .banner {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   width: 90%;
   margin: 0px auto;
@@ -99,3 +101,5 @@ header {
 .banner .banner-icons img {
     margin-right: 0.3rem;
 }
+
+
