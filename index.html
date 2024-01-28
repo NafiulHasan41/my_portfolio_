@@ -1,63 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Nafiul Hasan</title>
-    <link rel="shortcut icon" href="images/icons/favicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="style/style.css">
+    <link
+      rel="shortcut icon"
+      href="images/icons/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="style/style.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;700;800;900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
 
-</head>
-<body>
+    <!-- for animation -->
+  </head>
+  <body>
     <header>
-       <nav class="nav-container">
-         <h3>Naf<span style="color: red;font-size: 3rem;">i</span>ul</h3>
+      <nav class="nav-container">
+        <h3>Naf<span style="color: red; font-size: 3rem">i</span>ul</h3>
 
-         <ul class="navigation">
-            <li class="nav-common"><a href="">About Me</a></li>
-            <li class="nav-common"><a href="">Skills</a></li>
-            <li class="nav-common"><a href="">Projects</a></li>
-            <li class="nav-common"><button class="btn-common">Contact Me</button></li>
-         </ul>
-       </nav>
-       <div class="banner">
+        <ul class="navigation">
+          <li class="nav-common"><a href="">About Me</a></li>
+          <li class="nav-common"><a href="">Skills</a></li>
+          <li class="nav-common"><a href="">Projects</a></li>
+          <li class="nav-common">
+            <button class="btn-common">Contact Me</button>
+          </li>
+        </ul>
+      </nav>
+      <!-- hamburger -->
+      <nav id="hamburger-nav">
+        <div class="logo">
+            <h3>Naf<span style="color: red; font-size: 3rem">i</span>ul</h3>
+        </div>
+        <div class="hamburger-menu">
+          <div class="hamburger-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="menu-links">
+            <li><a href="#" onclick="toggleMenu()">About Me</a></li>
+            <li><a href="#" onclick="toggleMenu()">Skills</a></li>
+            <li><a href="#" onclick="toggleMenu()">Projects </a></li>
+            <li><a href="#" onclick="toggleMenu()">Contact</a></li>
+            
+
+          </div>
+        </div>
+      </nav>
+      <!-- hamburger -->
+      <div class="banner">
         <div class="banner-text">
-            <h3 class="hi">Hi, I  <span style="color: red;">am</span></h3>
-            <h1 class="name"><span style="color: red;">Nafiul</span> Hasan</h1>
-            <p class="banner-paragraph">Currently I am a student of KUET CSE and intermediate Android developer.
-                Also learning Web development.
-            </p>
-            <div class="banner-contact">
-                    <button class="btn-common">Download CV</button>
-                    <button class="btn-common btn-contact">Contact</button>
-                
-            </div>
-            <div class="banner-icons">
-                <img src="images/icons/facebook.png" alt="">
-                <img src="images/github.png" alt="">
-                <img src="images/icons/twitter.png" alt="">
-                <img src="images/linkedinn.png" alt="">
-                <img src="images/icons/insta.png" alt="">
-            </div>
+          <h3 class="hi">Hi, I <span style="color: red">am</span></h3>
+          <h1 class="name"><span style="color: red">Nafiul</span> Hasan</h1>
+
+          <p class="banner-paragraph">
+            Currently I am a student of KUET CSE and intermediate Android
+            developer. Also learning Web development.
+          </p>
+
+          <!-- <p class="tag">And I'm a <span class="typing"></span></p> -->
+
+          <div class="banner-contact">
+            <button class="btn-common">Download CV</button>
+            <button class="btn-common btn-contact">Contact</button>
+          </div>
+          <div class="banner-icons">
+            <img src="images/icons/facebook.png" alt="" />
+            <img src="images/github.png" alt="" />
+            <img src="images/icons/twitter.png" alt="" />
+            <img src="images/linkedinn.png" alt="" />
+            <img src="images/icons/insta.png" alt="" />
+          </div>
         </div>
         <div class="banner-image">
-            <img src="images/nafiul.png" alt="">
+          <img src="images/nafiul.png" alt="" />
         </div>
-       </div>
-      
+      </div>
     </header>
-  
 
-    <body>
-        
-    </body>
+    <body></body>
 
-    <footer>
-
-    </footer>
-</body>
+    <footer></footer>
+    <script src="script.js"></script>
+  </body>
 </html>
